@@ -12,9 +12,10 @@ setup(
     description='Validity fingerprint sensor prototype',
     install_requires=(
         'fastecdsa==1.7.4',
-        'pyusb==1.0.2'
+        'pyusb==1.0.2',
+        'pycrypto'
     ),
     dependency_links=(
-        'git+https://github.com/fabiant7t/pycrypto#egg=pycrypto',
+        'https://github.com/fabiant7t/pycrypto/tarball/master#egg=pycrypto',
     )
 )
